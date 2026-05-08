@@ -27,3 +27,7 @@ console.log(media_final);
     } else{
         alert(`Sua média final é ${media_final}. Você foi reprovado!`);
     }
+
+ /*
+    media_final >= 6? console.log("aprovado") : console.log("reprovado");
+*/

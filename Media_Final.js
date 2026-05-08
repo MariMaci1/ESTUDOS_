@@ -29,5 +29,6 @@ console.log(media_final);
     }
 
  /*
-    media_final >= 6? console.log("aprovado") : console.log("reprovado");
+    let mensagem = media_final >= 6? "aprovado" : "reprovado";
+    console.log(mensagem);
 */

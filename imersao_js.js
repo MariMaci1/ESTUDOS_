@@ -1,4 +1,8 @@
-// Eleitor
+/*
+Imersão JavaScript – Estruturas de Seleção e Repetição (Linha de Bootcamps)
+*/
+
+// ELEITOR
 
 let nome =  prompt("Digite sue nome: ");
 let ano_nascimento = prompt("Digite o ano de seu nascimento: ");

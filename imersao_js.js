@@ -50,3 +50,25 @@ switch(operacao){
 }
 
 console.log(`O resultado da operação ${valor1} ${operacao} ${valor2} = ${resul}`);
+
+
+
+
+/* 
+    OBJ: Entrada de dois valores inteiros e saída da tabuada do 1° valor int até 2° valor int
+    EX: valor1: 2; valor2: 20;
+    Resul:  2x1=2
+            2x2=4
+            2x3=6...
+*/
+document.write("Tabuada: <br>")
+
+let num = parseInt(prompt("Digite um número: "))
+let qtd = 1
+
+
+while(qtd <= 10){
+    resul = num*qtd
+    document.write(`${num} x ${qtd} = ${resul} <br>`)
+    qtd++
+}

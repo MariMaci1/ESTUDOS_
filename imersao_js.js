@@ -28,6 +28,9 @@ if(idade < eleitorMenor){
 }
 
 
+
+
+
 /*
     OBJ: receber dois valores, o operação matemático e devolver a conta e o resultado
 */
@@ -54,6 +57,7 @@ console.log(`O resultado da operação ${valor1} ${operacao} ${valor2} = ${resul
 
 
 
+
 /* 
     OBJ: Entrada de dois valores inteiros e saída da tabuada do 1° valor int até 2° valor int
     EX: valor1: 2; valor2: 20;
@@ -71,4 +75,22 @@ while(qtd <= 10){
     resul = num*qtd
     document.write(`${num} x ${qtd} = ${resul} <br>`)
     qtd++
+}
+
+
+
+
+
+/*
+    um script que aparece os 10 primeiros multiplos de 3.
+*/
+
+let num1 = 3;
+let qtd = 30;
+
+while(num1 <= 30){
+    if(num1 % 3 == 0){
+        console.log(num1)
+    }
+    num1++
 }

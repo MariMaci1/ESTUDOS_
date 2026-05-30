@@ -4,4 +4,4 @@ Esse é um repositório para anotar dicas e códigos para voltar e ver tudo que 
 
 Acabou que esse repositório está tendo um foco maior em JS, vai ficar assim.
 
-Códigos presentes: Soma, Média, Aumento Salarial e Contador.
+Códigos presentes: Soma, Média, Aumento Salarial, Contador e Lista.

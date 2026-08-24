@@ -28,7 +28,7 @@ function multiplicar(n1,n2){
 }
 
 function dividir(n1,n2){
-    if (n1 or n2 ==0){
+    if (n1 || n2 ==0){
         return "Não é possível dividir um número por zero!"
 }
     return n1/n2;
